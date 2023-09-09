@@ -8,7 +8,7 @@
     "clean": "rimraf dist",
     "mkdir": "mkdirp dist/client",
     "copy": "cpy client/* dist/client",
-    "prebuild": "npm run clean && npm run mkdir && npm run copy",
+    "prebuild": "npm run clean && npm run mkdir && npm run copy"
   },
   "keywords": [],
   "author": "",
